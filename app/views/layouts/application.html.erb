@@ -14,12 +14,12 @@
   </head>
 
   <header>
-    <h3 class='title d-flex justify-content-center'>Chonglers</h3>
+    <h3 class='title d-flex justify-content-center'><a href="/">Chonglers</a></h3>
     <h4 class='subtitle d-flex justify-content-center'>Season 3</h4>
     <div class="d-flex header-cards justify-content-center">
       <h5>About</h5>
       <h5>Recruitment</h5>
-      <a href="/gallery"><h5>Gallery</h5></a>
+      <h5><a href="/gallery">Gallery</a></h5>
       <h5>Events</h5>
     </div>
   </header>
@@ -27,4 +27,11 @@
   <body>
     <%= yield %>
   </body>
+
+  <footer>
+    <div class="d-flex justify-content-center discord-link">
+      <p class='disc-tagline'>Want to chat with us? Join our Discord!</p>
+      <%= image_tag("discord-logo.svg") %>      
+    </div>
+  </footer>
 </html>

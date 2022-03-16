@@ -16,22 +16,41 @@
 
 @import "bootstrap";
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 header{
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0px 2px 3px #00000047;
+
   .title{
+    a{
+      text-decoration: none;
+      color: black;
+    }
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 30px;
     padding-bottom: 0;
     line-height: 38px;
+    text-shadow: 2px 2px 4px #00000063;
   }
 
   .subtitle{
     font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .header-cards{
     a{
+      &:hover{
+        opacity: 0.5;
+        transition: 0.2s;
+      }
       text-decoration: none;
       color: black;
     }
@@ -39,6 +58,8 @@ header{
     h5{
       width: 17%;
       text-align: center;
+      font-size: 22px;
+      font-family: 'Bebas Neue', cursive;
     }
   }
 }
@@ -97,5 +118,27 @@ header{
       // font-family: 'Bebas Neue', cursive;
       margin-bottom: 30px;
     }
+  }
+}
+
+footer{
+  padding: 50px 10px;
+  background-color: #eaeaea;
+  box-shadow: 0px 6px 12px black;
+
+  .discord-link{
+    flex-direction: column;
+
+    .disc-tagline{
+      font-family: 'Bebas Neue', cursive;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    img{
+      height: 80px;
+    }
+
   }
 }
