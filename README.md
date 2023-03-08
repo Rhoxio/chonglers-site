@@ -1,8 +1,8 @@
 # README
 
 Install ruby 3.1.0
-run `gem install bundler`
-run `bundle install`
+run `gem install bundler`  
+run `bundle install`  
 
 run `rails s` to start the server.
 
