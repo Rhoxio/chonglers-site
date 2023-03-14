@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root "index#show"
 
   get "/gallery", to: "index#gallery"
+  get "/chongalations", to: "index#chongalations"
 end
