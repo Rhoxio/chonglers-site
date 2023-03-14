@@ -122,12 +122,55 @@ header{
   }
 }
 
+.contains-photo{
+  display: block !important;
+}
+
 .quote-container{
+  display: flex;
+  background-color: #80808021;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #cecece;
+  padding: 20px 20px;
+  margin-top: 30px;
+  font-weight: 400;
+
+  .center{
+    text-align: center;
+  }
+
+  .mb-20{
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+
+  .quote-avatar{
+    border-radius: 50%;
+    height: 150px;
+  }
+
+  .quote-image{
+    margin-left: 15%;
+    margin-top: 15px;
+  }
+
   .quote{
-    font-family: BebasNeue;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding: 30px 30px;
   }
   .sig{
-    font-family: BebasNeue;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cardo', serif;  
+    font-weight: 400;  
+    display: block;
+    font-size: 18px;
+    margin-top: 30px;    
   }
 }
 
